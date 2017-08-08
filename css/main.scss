@@ -1775,6 +1775,10 @@ $baseurl: '{{ site.baseurl }}/images';
 					&:hover {
 						color: _palette(fg);
 					}
+
+					.logo {
+						border-bottom: none;
+					}
 				}
 
 				@include breakpoint(xsmall) {
