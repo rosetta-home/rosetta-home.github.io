@@ -1776,9 +1776,10 @@ $baseurl: '{{ site.baseurl }}/images';
 						color: _palette(fg);
 					}
 
-					.logo {
-						border-bottom: none;
-					}
+				}
+
+				.logo {
+					border-bottom: none;
 				}
 
 				@include breakpoint(xsmall) {
